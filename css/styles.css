@@ -2,3 +2,46 @@
 body {
 	background: url("../img/bg.png");
 }
+
+/* LAYOUT */
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	background: lightblue;
+}
+
+article section {
+	width: 50%;
+	float: left;
+}
+
+iframe, img {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* DESKTOP */
+@media (min-width: 960px)
+{
+	#top {
+		width: 300px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	#top{
+		width: 100px;
+	}
+
+	section img{
+		width: 80%;
+
+	}
+
+	section h1{
+		text-transform: uppercase;
+		color: gold;
+	}
+}
